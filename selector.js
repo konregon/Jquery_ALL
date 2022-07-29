@@ -28,3 +28,15 @@ $(document).ready(function(){
 });
 
 
+// The index numbers start at 0
+
+// 6. :even
+$(document).ready(function(){
+    $(".even_selector1 > p:even").css("background", "red");
+});
+
+
+// 7. :odd
+$(document).ready(function(){
+    $(".odd_selector1 > p:odd").css("background", "green");
+});
