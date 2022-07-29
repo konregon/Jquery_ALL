@@ -40,3 +40,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".odd_selector1 > p:odd").css("background", "green");
 });
+
+
+// 8. :first-child
+$(document).ready(function(){
+    $(".firstChild_selector1 > child1 > p:first-child").css("background", "gray");
+});
