@@ -6,5 +6,11 @@
 
 // 2. #id selector
 $(document).ready(function(){
-    $("intro").css("background", "yellow");
+    $("#intro").css("background", "yellow");
+});
+
+
+// 3. .class
+$(document).ready(function(){
+    $(".class1").css("background", "blue");
 });
