@@ -22,3 +22,9 @@ $(document).ready(function(){
 });
 
 
+// 5. :last
+$(document).ready(function(){
+    $(".last_selector1 > p:last").css("background", "orange");
+});
+
+
