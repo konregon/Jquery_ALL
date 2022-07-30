@@ -110,3 +110,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".onlyOfType_selector3 > p:only-of-type").css("background", "yellow");
 });
+
+
+// 17. parent > child
+$(document).ready(function(){
+    $(".parent_selector1 > p").css("background", "fuchsia");
+});
