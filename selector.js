@@ -85,3 +85,15 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".nthLastOfType_selector > p:nth-last-of-type(2)").css("background", "orange");
 });
+
+
+// 15. only-child
+$(document).ready(function(){
+    $(".onlyChild_selector1 > p:only-child").css("background", "brown");
+});
+$(document).ready(function(){
+    $(".onlyChild_selector2 > p:only-child").css("background", "brown");
+});
+$(document).ready(function(){
+    $(".onlyChild_selector3 > p:only-child").css("background", "brown");
+});
