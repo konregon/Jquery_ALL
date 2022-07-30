@@ -50,3 +50,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".parent2 > p:first-child").css("background", "gray");
 });
+
+
+// 9. :first-of-type
+$(document).ready(function(){
+    $(".firstOfType_selector1 > p:first-of-type").css("background", "gray");
+});
