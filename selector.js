@@ -44,5 +44,9 @@ $(document).ready(function(){
 
 // 8. :first-child
 $(document).ready(function(){
-    $(".firstChild_selector1 > child1 > p:first-child").css("background", "gray");
+    $(".child1 > p:first-child").css("background", "gray");
+});
+
+$(document).ready(function(){
+    $(".parent2 > p:first-child").css("background", "gray");
 });
