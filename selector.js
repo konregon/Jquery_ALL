@@ -56,3 +56,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".firstOfType_selector1 > p:first-of-type").css("background", "gray");
 });
+
+
+// 10. :last-child
+$(document).ready(function(){
+    $(".lastChild_selector1 > p:last-child").css("background", "lime");
+});
