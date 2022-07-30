@@ -97,3 +97,16 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".onlyChild_selector3 > p:only-child").css("background", "brown");
 });
+
+
+
+// 16. :only-of-type
+$(document).ready(function(){
+    $(".onlyOfType_selector1 > p:only-of-type").css("background", "yellow");
+});
+$(document).ready(function(){
+    $(".onlyOfType_selector2 > p:only-of-type").css("background", "yellow");
+});
+$(document).ready(function(){
+    $(".onlyOfType_selector3 > p:only-of-type").css("background", "yellow");
+});
