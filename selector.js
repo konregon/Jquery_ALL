@@ -80,3 +80,8 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".nthLastChild_selector > p:nth-last-child(2)").css("background", "blue");
 });
+
+// 14. :nth-last-of-type(n)
+$(document).ready(function(){
+    $(".nthLastOfType_selector > p:nth-last-of-type(2)").css("background", "orange");
+});

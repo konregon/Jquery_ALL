@@ -103,7 +103,7 @@
     <br>
 
     <h2>11. :last-of-type</h2>
-    <h3>All &lt;p&gt; elements that are the LAST &lt;p&gt; element of their parent</h3>
+    <h3>All &lt;p&gt; elements that are the LAST &lt;p&gt; ELEMENT of their parent</h3>
     <div class="lastOfType_selector1">
         <p>this is paragraph 1 </p>
         <p>this is paragraph 2 </p>
@@ -128,6 +128,17 @@
         nth counting from bottom
     </h3>
     <div class="nthLastChild_selector">
+        <p>this is paragraph 1 </p>
+        <p>this is paragraph 2 </p>
+        <p>this is paragraph 3 </p>
+        <p>this is paragraph 4 </p>
+        <p>this is paragraph 5 </p>
+    </div>
+    <br>
+
+    <h2>14. :nth-last-of-type(n)</h2>
+    <h3>All &lt;p&gt; elements that are the 2nd &lt;p&gt; ELEMENT of their parent, counting from the last child</h3>
+    <div class="nthLastOfType_selector">
         <p>this is paragraph 1 </p>
         <p>this is paragraph 2 </p>
         <p>this is paragraph 3 </p>
