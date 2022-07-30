@@ -116,3 +116,15 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".parent_selector1 > p").css("background", "fuchsia");
 });
+
+
+// 18. parent descendant
+$(document).ready(function(){
+    $(".parentDescendant_selector1  span").css("background", "lime");
+});
+
+
+// 19. element+next
+$(document).ready(function(){
+    $(".elementNext_selector + p").css("background", "lime");
+});
