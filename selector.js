@@ -128,3 +128,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".elementNext_selector + p").css("background", "lime");
 });
+
+
+// 20. element ~ siblings
+$(document).ready(function(){
+    $(".elementSiblings_selector1 ~ p").css("background", "teal");
+});
