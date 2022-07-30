@@ -62,3 +62,21 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".lastChild_selector1 > p:last-child").css("background", "lime");
 });
+
+
+// 11. :last-of-type
+$(document).ready(function(){
+    $(".lastOfType_selector1 > p:last-of-type").css("background", "pink");
+});
+
+
+// 12. :nth-child(n)
+$(document).ready(function(){
+    $(".nthChild_selector > p:nth-child(2)").css("background", "blue");
+});
+
+
+// 13. :nth-last-child
+$(document).ready(function(){
+    $(".nthLastChild_selector > p:nth-last-child(2)").css("background", "blue");
+});
