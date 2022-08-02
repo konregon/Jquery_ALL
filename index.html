@@ -237,9 +237,136 @@
     <br>
 
 
-    
+    <h2>21. eq(index)</h2>
+    <h3>
+        The :eq() selector selects an element with a specific index number. <br>
+<br> The index numbers start at 0, so the first element will have the index number 0 (not 1).
+<br> This is mostly used together with another selector to select a specifically indexed element in a group (like in the example above).
+    </h3>
+    <div class="eqSelector1">
+        <p>this is paragraph 1 </p>
+        <p>this is paragraph 2 </p>
+        <p>this is paragraph 3 </p>
+    </div>
+    <br>
 
 
+    <h2>22. gt(no)</h2>
+    <h3>
+        The :gt() selector selects elements with an index number higher than a specified number.
+<br>
+The index numbers start at 0.
+<br>
+This is mostly used together with another selector to select the last elements in a group (like in the example below).
+<br>
+Tip: Use the :lt selector to select elements index numbers lesser than the specified number.
+    </h3>
+    <div class="gtSelector1">
+        <p>this is paragraph 1 </p>
+        <p>this is paragraph 2 </p>
+        <p>this is paragraph 3 </p>
+        <p>this is paragraph 4 </p>
+        <p>this is paragraph 5 </p>
+        <p>this is paragraph 6 </p>
+    </div>
+    <br>
+
+
+    <h2>23. Lt(no)</h2>
+    <h3>The :lt() selector selects elements with an index number less than a specified number.
+<br>
+        The index numbers start at 0.
+        <br>
+        This is mostly used together with another selector to select the first elements in a group (like in the example below).
+        <br>
+        Tip: Use the :gt selector to select elements index numbers greater than the specified number.</h3>
+        <div class="ltSelector1">
+            <p>this is paragraph 1 </p>
+            <p>this is paragraph 2 </p>
+            <p>this is paragraph 3 </p>
+            <p>this is paragraph 4 </p>
+            <p>this is paragraph 5 </p>
+            <p>this is paragraph 6 </p>
+        </div>
+        <br>
+
+
+        <h2>24. not(selector)</h2>
+        <h3>
+            The :not() selector selects all elements except the specified element.
+<br>
+This is mostly used together with another selector to select everything except the specified element in a group (like in the example below).
+        </h3>
+        <div class="notSelector1">
+            <p class="no1">this is paragraph 1 of class 1</p>
+            <p class="no2">this is paragraph 2 of class 2</p>
+            <p class="no1">this is paragraph 3  of class 1</p>
+            <p>this is paragraph 4 </p>
+            <p>this is paragraph 5 </p>
+            <p>this is paragraph 6 </p>
+        </div>
+        <br>
+
+
+        <h2>25. header</h2>
+        <h3>
+            The :header selector selects all header elements (h1 to h6).
+        </h3>
+        <div class="headerSelector">
+            <h2>this is a header 2</h2>
+            <h3>this is a header 3</h3>
+            <p>this is pera 1</p>
+            <h4>this is a header 4</h4>
+            <p>this is pera 2</p>
+        </div>
+        <br>
+
+
+        <h2>26. animated</h2>
+        <h3>The :animated selector selects all elements that are currently animated.</h3>
+        <div class="animatedSelector1">
+            <button class="button11">Change color of the animated element</button>
+            <div style="background:blue;">Div 1</div>
+            <div style="background:green;">Div 2</div>
+            <div style="background:yellow;">Div 3</div>
+        </div>
+        <h4>not working</h4>
+        <br>
+
+
+        <h2>27. focus</h2>
+        <h3>The :focus selector selects the element that currently has focus.
+            <br>
+            Tip: This selector is often used with a tag name or another selector, if not, this selector will be the same as ("*:focus").
+            </h3>
+            <input type="text" />
+            <h4>not working</h4>
+            <br>
+
+        <h2>28. contains</h2>
+        <h3>The :contains() selector selects elements containing the specified string.
+            <br>
+            The string can be contained directly in the element as text, or in a child element.
+            <br>
+            This is mostly used together with another selector to select the elements containing the text in a group (like in the example above).
+            <br>
+            Note: The text is case sensitive.</h3>
+        <div class="containsSelector1">
+            <p>My name is Donald.</p>
+<p>I live in Duckburg.</p>
+<p>My best friend is Mickey.</p>
+        </div>
+        <br>
+
+
+    <h2>29. has</h2>
+    <h3>The :has() selector selects all elements that have one or more elements inside of them, that matches the specified selector.
+<br>
+        Tip: To select an element that have multiple elements inside of it, use comma (see example below).</h3>
+    <div class="hasSelector1">
+        <p><span>This is a span element inside a p element.</span></p>
+        <p>This is a p element with no span element.</p>
+    </div>
 
 
 </body>

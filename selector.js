@@ -134,3 +134,70 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".elementSiblings_selector1 ~ p").css("background", "teal");
 });
+
+
+// 21. eq(index)
+$(document).ready(function(){
+    $(".eqSelector1 > p:eq(1)").css("background", "red");
+})
+
+
+
+// 22. gt(no)
+$(document).ready(function(){
+    $(".gtSelector1 > p:gt(1)").css("background", "yellow");
+})
+
+
+
+// 23. Lt(no)
+$(document).ready(function(){
+    $(".ltSelector1 > p:lt(3)").css("background", "gray");
+})
+
+
+// 24. not(selector)
+$(document).ready(function(){
+    $(".notSelector1 > p:not(.no1)").css("background", "greenyellow");
+})
+
+
+// 25. header
+$(document).ready(function(){
+    $(".headerSelector :header").css("background", "indianred");
+})
+
+
+// 26. 26. animated
+// not working
+$(document).ready(function(){
+    function aniDiv(){
+      $("animatedSelector1 > div:eq(0)").animate({width: "50%"}, "slow");
+      $("animatedSelector1 > div:eq(0)").animate({width: "100%"}, "slow", aniDiv);
+    }
+    aniDiv();
+    $(".button11").click(function(){
+      $(":animated").css("background-color", "red");
+    });
+  });
+
+
+
+// 27. focus
+/*$(document).ready(function(){
+    $("input").focus();
+    $(":focus").css("background-color", "yellow");
+  });
+*/
+  
+
+// 28. contains
+$(document).ready(function(){
+    $(".containsSelector1 > p:contains(is)").css("background", "khaki");
+})
+
+
+// 29. has
+$(document).ready(function(){
+    $(".hasSelector1 > p:has(span)").css("background", "lavender");
+})
