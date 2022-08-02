@@ -194,10 +194,22 @@ $(document).ready(function(){
 // 28. contains
 $(document).ready(function(){
     $(".containsSelector1 > p:contains(is)").css("background", "khaki");
-})
+});
 
 
 // 29. has
 $(document).ready(function(){
-    $(".hasSelector1 > p:has(span)").css("background", "lavender");
-})
+    $(".hasSelector1 > p:has(span)").css("background", "lawngreen");
+});
+
+
+// 30. empty
+$(document).ready(function(){
+    $(".emptySelector1 :empty").css("background", "lightblue");
+});
+
+
+// 31. parent
+$(document).ready(function(){
+    $(".parentSelector11 > table > td :parent").css("background", "lightcoral");
+});
